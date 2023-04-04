@@ -7,31 +7,82 @@ $darkblue: hsl(223, 47%, 23%);
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
 body {
+    font-family: "Red Hat Display", sans-serif;
     font-size: 16px;
     text-align: center;
     margin: 0;
     padding: 0;
+    max-width: 1440px;
+    max-height: 900px;
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: $paleblue;
     .card {
         max-width: 450px;
+        margin: 20px auto;
+        border-radius: 20px;
+        box-shadow: 0px 10px 20px rgb(190, 190, 190);
+        background-color: white;
+        .img img{
+            border-radius: 20px 20px 0px 0px;
+        }
         .order {
+            width: 80%;
+            margin: auto;
+            p {
+                color: $desaturatedblue;
+            }
         }
         .plan {
             display: grid;
             grid-auto-flow: column;
-            height: 100x;
+            height: 100px;
+            width: 80%;
+            margin: auto;
+            background-color: $verypaleblue;
+            border-radius: 20px;
+            img {
+                margin: auto;
+            }
             .text {
                 text-align: left;
-                // h2 {
-                //     margin: 0px;
-                // }
-                // p {
-                //     margin: 0px;
-                // }
+                h2 {
+                    margin-bottom: 5px;
+                }
+                p {
+                    margin-top: 10px;
+                    color: $desaturatedblue;
+                }
+            }
+            a {
+                margin: auto;
             }
         }
         .button {
+            width: 80%;
+            height: 40px;
+            margin: 20px auto;
+            border-radius: 10px;
+            background-color: $brightblue;
+            box-shadow: 0px 10px 20px $desaturatedblue;
+
+            a {
+                color: $paleblue;
+                font-weight: 900;
+                text-decoration: none;
+            }
+        }
+        .cancel {
+            a, 
+            :active {
+                text-decoration: none;
+                font-weight: 700;
+                color: $desaturatedblue;
+            }
+            text-decoration: none;
         }
         .attribution {
+            margin-top: 20px;
         }
     }
 }

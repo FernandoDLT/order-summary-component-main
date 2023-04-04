@@ -1,18 +1,80 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 body {
+  font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
   text-align: center;
   margin: 0;
   padding: 0;
+  max-width: 1440px;
+  max-height: 900px;
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
 }
 body .card {
   max-width: 450px;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgb(190, 190, 190);
+  background-color: white;
+}
+body .card .img img {
+  border-radius: 20px 20px 0px 0px;
+}
+body .card .order {
+  width: 80%;
+  margin: auto;
+}
+body .card .order p {
+  color: hsl(224, 23%, 55%);
 }
 body .card .plan {
   display: grid;
   grid-auto-flow: column;
-  height: 100x;
+  height: 100px;
+  width: 80%;
+  margin: auto;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 20px;
+}
+body .card .plan img {
+  margin: auto;
 }
 body .card .plan .text {
   text-align: left;
+}
+body .card .plan .text h2 {
+  margin-bottom: 5px;
+}
+body .card .plan .text p {
+  margin-top: 10px;
+  color: hsl(224, 23%, 55%);
+}
+body .card .plan a {
+  margin: auto;
+}
+body .card .button {
+  width: 80%;
+  height: 40px;
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0px 10px 20px hsl(224, 23%, 55%);
+}
+body .card .button a {
+  color: hsl(225, 100%, 94%);
+  font-weight: 900;
+  text-decoration: none;
+}
+body .card .cancel {
+  text-decoration: none;
+}
+body .card .cancel a,
+body .card .cancel :active {
+  text-decoration: none;
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+}
+body .card .attribution {
+  margin-top: 20px;
 }/*# sourceMappingURL=style.css.map */
