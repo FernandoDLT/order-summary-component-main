@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+body {
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+body .card {
+  max-width: 450px;
+}
+body .card .plan {
+  display: grid;
+  grid-auto-flow: column;
+}
+body .card .plan .text {
+  text-align: left;
+}
+body .card .plan .text h2 {
+  margin: 0px;
+}
+body .card .plan .text p {
+  margin: 0px;
+}/*# sourceMappingURL=style.css.map */
