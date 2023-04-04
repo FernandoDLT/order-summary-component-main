@@ -12,11 +12,11 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    max-width: 1440px;
     max-height: 900px;
     background-image: url(/images/pattern-background-desktop.svg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-color: $paleblue;
+
     .card {
         max-width: 450px;
         margin: 20px auto;
