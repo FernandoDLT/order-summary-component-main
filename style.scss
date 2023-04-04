@@ -18,14 +18,15 @@ body {
         .plan {
             display: grid;
             grid-auto-flow: column;
+            height: 100x;
             .text {
                 text-align: left;
-                h2 {
-                    margin: 0px;
-                }
-                p {
-                    margin: 0px;
-                }
+                // h2 {
+                //     margin: 0px;
+                // }
+                // p {
+                //     margin: 0px;
+                // }
             }
         }
         .button {

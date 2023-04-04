@@ -11,13 +11,8 @@ body .card {
 body .card .plan {
   display: grid;
   grid-auto-flow: column;
+  height: 100x;
 }
 body .card .plan .text {
   text-align: left;
-}
-body .card .plan .text h2 {
-  margin: 0px;
-}
-body .card .plan .text p {
-  margin: 0px;
 }/*# sourceMappingURL=style.css.map */
