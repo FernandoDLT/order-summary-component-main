@@ -19,10 +19,11 @@ body {
 
     .card {
         max-width: 450px;
-        margin: 20px auto;
+        margin: 40px auto;
         border-radius: 20px;
         box-shadow: 0px 10px 20px rgb(190, 190, 190);
         background-color: white;
+        padding-bottom: 30px;
         .img img{
             border-radius: 20px 20px 0px 0px;
         }
@@ -91,9 +92,16 @@ body {
             }
             text-decoration: none;
         }
-        .attribution {
-            margin-top: 20px;
-        }
+    }
+    .attribution {
+        margin-top: 20px;
+        font-size: 11px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .attribution a {
+        color: hsl(228, 45%, 44%);
     }
 }
 
@@ -108,5 +116,8 @@ body {
                 }
             }
         }
+    }
+    .attribution {
+        padding-bottom: 20px;
     }
 }
